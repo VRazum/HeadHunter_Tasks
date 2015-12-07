@@ -14,7 +14,7 @@ public class Main {
 		travel.setCar(new Mazda());
 		travel.doTravel();
 		
-		// Изменим методs расчета амортизации и стоимости ремонта для форда
+		// Изменим методы расчета амортизации и стоимости ремонта для форда
 		ford.setCalcAmortization(new NonlinearMethodAmortization(1, 1));
 		ford.setCalcRepair(new RepairCostMethod(150));
 		travel.setCar(ford);
