@@ -21,16 +21,16 @@ public class SmartPhone {
         return new Random().nextInt();
     }*/
     
-	@Override
-	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((date == null) ? 0 : date.hashCode());
-		result = prime * result + ((model == null) ? 0 : model.hashCode());
-		result = prime * result
-				+ ((revision == null) ? 0 : revision.hashCode());
-		return result;
-	}
+	  @Override
+	  public int hashCode() {
+		  final int prime = 31;
+		  int result = 1;
+		  result = prime * result + ((date == null) ? 0 : date.hashCode());
+		  result = prime * result + ((model == null) ? 0 : model.hashCode());
+		  result = prime * result
+				  + ((revision == null) ? 0 : revision.hashCode());
+		  return result;
+	  }
     
     @Override
     public boolean equals(Object o) {
