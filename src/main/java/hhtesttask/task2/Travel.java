@@ -3,7 +3,7 @@ package hhtesttask.task2;
 import java.util.Random;
 
 public class Travel {
-	Car car;
+	private Car car;
     
 	public Travel(Car car) {
 		this.car = car;
